@@ -9,7 +9,7 @@ body{
     background-color: rgb(245, 232, 220);
    
 }
-/* background image */
+/* header style */
 header{
   font-size: 50px;
   padding: 50px;
@@ -17,7 +17,7 @@ header{
   background: #13293d;
   color: #fff;
   width: 100%;
-  background-image: url(./images/1044608664357088558.jpg);
+  background-image: url(Self-portrait.jpg);
   background-size: 130px 150px;
   background-repeat: no-repeat;
   background-position: 0; 
@@ -28,7 +28,7 @@ main {
   flex-wrap: wrap;
   flex-grow: 1;
 }
-/* sidebar */
+/* sidebar style */
 aside {
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ aside {
   color: midnightblue;
   position: relative; top: 30px;
 }
-/* display cards  */
+/* unordered list style */
 ul {
   display: flex;
   flex-direction: row-reverse;
@@ -47,7 +47,7 @@ ul {
   width: 80%;
   position: relative; left: 80px;
 }
-
+/* list card styles */
  li {
   padding-top: 2em;
   height: 350px;
@@ -56,8 +56,7 @@ ul {
   color: midnightblue(169, 169, 169, 0.26);
   
 }
-
-/* style classes */
+ /* nav bar and class styles */
 .beside {
   display: flex;
   flex-direction: column; 
@@ -109,8 +108,7 @@ ul {
   text-align: center;
   position: relative; left: 15px; 
 }
-
-/* pseudo classes */
+/* pseudo element */
 .photo:hover {
   box-shadow: inset 0px 0px 8px 
 }
@@ -118,8 +116,7 @@ ul {
 .photo2:hover {
   box-shadow: inset 0px 0px 8px 
 }
-
-/* media queries for tablet and smartphone */
+/* media queries */
 @media screen and (max-width: 992px) {
   .card {
     width: 50%;

@@ -6,4 +6,4 @@
 
 *URL https://gio-sampilo.github.io/Developer-Portfolio/
 
-![Home page] 
+![Home page](DP-Home-Page.PNG)
